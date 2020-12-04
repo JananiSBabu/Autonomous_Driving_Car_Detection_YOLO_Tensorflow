@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*virtual_document*
 
 # C extensions
 *.so
