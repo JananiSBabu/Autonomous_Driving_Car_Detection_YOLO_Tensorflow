@@ -1,11 +1,11 @@
 # Autonomous Driving Car Detection Application using YOLO algorithm (Tensorflow/Keras)
 
+YOLO (You Look Only Once) is the state of the art fast and accurate object dection algorithm, which is used here for the Autonomous driving car detection application. YOLO uses bounding boxes and class probabilities to detect  objects. The Deep CNN is trained using 608 x 608 x 3 images to identify 80 classes and uses 5 Anchor boxes.
+
 <center>
 <video width="400" height="200" src="nb_images/pred_video_compressed2.mp4" type="video/mp4" controls>
 </video>
 </center>
-
-YOLO (You Look Only Once) is the state of the art fast and accurate object dection algorithm, which is used here for the Autonomous driving car detection application. YOLO uses bounding boxes and class probabilities to detect  objects. The Deep CNN is trained using 608 x 608 x 3 images to identify 80 classes and uses 5 Anchor boxes.
 
 This project was completed for "Convolutional Neural Networks" course by Coursera and deeplearning.ai (part of Deep Learning Specialization taught by Prof. Andrew Ng)
 
@@ -14,11 +14,7 @@ This project was completed for "Convolutional Neural Networks" course by Courser
 * It uses Depp CNN that takes an input image of mX608X608X3 and returns 19x19x5x85 volume
 
 <img src="nb_images/architecture.png" style="width:700px;height:400;">
-<caption><center> <u> **Figure 2** </u>: **Encoding architecture for YOLO**<br> </center></caption>
 
-test 
-
-![architecture](nb_images/architecture.png)
 
 ## How I generated yolo.h5 from YAD2K repository
 YAD2K repo: https://github.com/allanzelener/YAD2K
