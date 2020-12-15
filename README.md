@@ -40,6 +40,9 @@ This shows the predicted class for each of the 19 x 19 grid, based on the maximu
 
 <img src="nb_images/proba_map.png" style="width:300px;height:300;">
 
+## Depedencies
+
+The execution environment is specified in the requirements.txt file (created by pip freeze). The code was developed using Tensorflow 1.2.1 and keras 2.0.7
 
 ## How I generated yolo.h5 from YAD2K repository
 YAD2K repo: https://github.com/allanzelener/YAD2K
@@ -55,7 +58,10 @@ If step 4 does not work, install packages manually using instructions in YAD2K r
 
 ## References 
 
-
+- Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi - [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640) (2015)
+- Joseph Redmon, Ali Farhadi - [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242) (2016)
+- Allan Zelener - [YAD2K: Yet Another Darknet 2 Keras](https://github.com/allanzelener/YAD2K)
+- The official YOLO website (https://pjreddie.com/darknet/yolo/) 
 
 ## NOTES:
 
