@@ -3,7 +3,9 @@
 YOLO (You Only Look Once) is the state of the art fast and accurate object detection algorithm, which is used here for the Autonomous driving car detection application. YOLO uses bounding boxes and class probabilities to detect  objects. The Deep CNN is trained using 608 x 608 x 3 images to identify 80 classes and uses 5 Anchor boxes.
 
 <center>
-<video width="800" height="500" src="nb_images/pred_video_compressed2.mp4" type="video/mp4" controls preload autoplay>
+<video width="800" height="500" controls preload autoplay loop>
+	<source src="nb_images/pred_video_compressed2.mp4" type="video/mp4" />
+	Your browser does not support the video tag.
 </video>
 </center>
 
